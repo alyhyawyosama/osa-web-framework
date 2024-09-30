@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Build from Scratch</h 1>
+      <!-- Books page {'id': 10, 'title': 'War and Peace', 'author': 'Leo Tolstoy', 'publication_year': 1869, 'genre': ['Historical Fiction', 'Epic'], 'description': 'A monumental work depicting the events of Russian society during the Napoleonic era.', 'cover_image': 'https://fakeimg.pl/667x1000/cc6600'}, -->
+        <!-- loop throgh books list of books objects -->
+        <div class="row">
+            {%for book in books %}
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="{{book.cover_image}}" class="card-img-top" alt="War and Peace">
+                        <div class="card-body">
+                        <h5 class="card-title
+                        ">{{book.title}}  22</h5>
+                        <p class="card-text">{{book.description}}</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+         </div>
+    {% endblock %}
