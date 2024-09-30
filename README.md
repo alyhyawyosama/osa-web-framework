@@ -6,17 +6,29 @@
 Table of content :
 
 [Story](#story)
+
 [Installation](#installation)
+
 [Example of a Simple  App](#example-of-a-simple-app)
+
 [Key features](#key-features)
+
 [Setting Up Your Project Structure](#setting-up-your-project-structure)
+
 [Creating Your First App](#creating-your-first-app)
+
 [Working with Templates and Static Files](#working-with-templates-and-static-files)
+
 [Running the App](#running-the-app)
+
 [Advanced Usage](#advanced-usage)
+
 [Template Rendering](#template-rendering)
+
 [Static Files](#static-files)
+
 [Resources](#resources)
+
 
 ## <a id="story">Story</a>
 
@@ -52,7 +64,7 @@ As I learned, I started experimenting by building the main functions of a framew
 3. **Install Osa**:
 
    ```bash
-   pip install -i https://test.pypi.org/simple/ osa-web-framework==0.0.1
+   pip install osa-web-framework
    ```
 
 ---
